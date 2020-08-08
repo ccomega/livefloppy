@@ -12,6 +12,9 @@ Livefloppy is a way to turn a floppy into a live cd, essentially booting you int
  This is a simple script just running wget on the static url's, you can also do this yourself if you want to:
  
  Run wget on the 3 files: (not recommended)
+ 
  startup.lua
+ 
  livefloppy/startup.lua
+ 
  livefloppy/logo.txt
