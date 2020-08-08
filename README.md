@@ -1,5 +1,5 @@
 # livefloppy
-Livefloppy is a way to turn a floppy into a live cd, essentially booting you into the floppy, by default it runs shell, but you can install other os'es (Tested with OpusOS)
+Livefloppy is a way to turn a floppy into a live cd, essentially booting you into the floppy, by default it runs shell, but you can install other os'es (Tested with OpusOS) This works on any pc, except the ones that don't allow booting from a floppy 
 
 
 ## IMPORTANT!!!
