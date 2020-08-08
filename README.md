@@ -5,5 +5,10 @@
   Use a clean computer when installing this, or a garbage computer.
   
 ## Install
- Just run `wget run`
-
+ Just run `wget run https://raw.githubusercontent.com/omegacoustics/livefloppy/master/install.lua`
+ This is a simple script just running wget on the static url's, you can also do this yourself if you want to:
+ 
+ Run wget on the 3 files: (not recommended)
+ startup.lua
+ livefloppy/startup.lua
+ livefloppy/logo.txt
