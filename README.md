@@ -8,7 +8,7 @@ Livefloppy is a way to turn a floppy into a live cd, essentially booting you int
   Use a clean computer when installing this, or a garbage computer.
   
 ## Install
- Just run `wget run https://raw.githubusercontent.com/omegacoustics/livefloppy/master/install.lua`
+ Just run `wget run https://raw.githubusercontent.com/ccomega/livefloppy/master/install.lua`
  This is a simple script just running wget on the static url's, you can also do this yourself if you want to:
  
  Run wget on the 3 files: (not recommended)
