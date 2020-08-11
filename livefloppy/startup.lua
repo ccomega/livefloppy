@@ -1,8 +1,8 @@
 local json = require "json"
 
 --- This gives us the name of the disk, "disk", or "disk2" for example
-local disk = fs.getDir(shell.getRunningProgram())
-
+--  local disk = fs.getDir(shell.getRunningProgram())
+local disk = "/disk/" -- Fix for attempt to index local `handle` (a nil value)
 term.clear()
 term.setCursorPos(1,1)
 
