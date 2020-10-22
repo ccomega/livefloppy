@@ -7,30 +7,30 @@ term.clear()
 term.setCursorPos(1,1)
 
 -- Draw logo :P
-do
-  local handle = fs.open(fs.combine(disk, "logo.txt"), "r")
-  local lines = {}
-  local line = handle.readLine()
-  local w = 0
-  while line do
-    w = math.max(w, #line)
-    lines[#lines + 1] = line
-    line = handle.readLine()
-  end
+--do
+-- local handle = fs.open(fs.combine(disk, "logo.txt"), "r")
+--  local lines = {}
+--  local line = handle.readLine()
+--  local w = 0
+ -- while line do
+--    w = math.max(w, #line)
+--    lines[#lines + 1] = line
+ --   line = handle.readLine()
+--  end
+--
+--  local h = #lines
+--  local logo = window.create(term.current(), 1, 1, w, h)
+--  logo.setVisible(false)
+--  for i, v in pairs(lines) do
+--   logo.setCursorPos(1, i)
+--    logo.write(v)
+--  end
+--
+--  logo.setVisible(true)
+--end
 
-  local h = #lines
-  local logo = window.create(term.current(), 1, 1, w, h)
-  logo.setVisible(false)
-  for i, v in pairs(lines) do
-    logo.setCursorPos(1, i)
-    logo.write(v)
-  end
 
-  logo.setVisible(true)
-end
-
-
-term.setCursorPos(1,7)
+--term.setCursorPos(1,7)
 
 print("Booting live usb")
 print("Press x to exit")
